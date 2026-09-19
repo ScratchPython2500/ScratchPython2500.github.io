@@ -1,37 +1,46 @@
 div{
+  width: 60%;
   position: absolute;
-	width: 80%;
-	backdrop-filter: blur(10px);
-	border-radius: 10px;
-	background: rgba(225,225,225,50%);
-	margin: 0 auto;
-	left: 50%;
-	transform: translateX(-50%);
-	padding: 10px 10px;
+  backdrop-filter: blur(10px);
+  background: rgba(225,225,225,50%);
+  left: 0;
+  padding: 10px 20%;
 }
 .tab{
-  text-align: center;
   width: 100%;
-  border-radius: 0;
+  text-align: center;
   background: rgba(225,225,225,30%);
   position: fixed;
-  padding: 10px;
-  a{
-	text-decoration: none;
-	color: black;
-  } 
-  a:hover{
-	color: coral;
-  }
+  padding: 10px 0 10px 0;
 }
-h1{font-size: 45px;}
-.p{font-size: 25px;}
+.imtitle{font-size: 45px;font-weight: bold;}
 .hid{
-  backdrop-filter: blur(0px);
+  width: 90%;
+  padding: 10px;
+  backdrop-filter: blur(0);
   background: rgba(0,0,0,0);
   text-shadow: 1px 2px 1px #000000;
 }
-body{
-  display: flex;
-  flex-direction: column;
+h1{
+  font-size: 36px;
+  color: darkgreen;
+  text-align: center;
+}
+h2,th{
+  font-size: 30px;
+  color: darkslateblue;
+  text-align: center;
+}
+p,td{font-size: 25px;}
+td{text-align: center;}
+footer{
+  font-size: 20px;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+} 
+a:hover{
+  color: coral;
 }
